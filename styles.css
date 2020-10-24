@@ -23,9 +23,7 @@ h5 {
     color: #D2D2D2;
 }
 
-p {
-    margin-bottom: 0!important;
-}
+
 /* Header, Navbar, socialbar */
 
 nav {
@@ -334,6 +332,14 @@ a #logo {
 
 /* footer */ 
 
+footer h5 {
+    font-size: 16px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
 .site-foot {
     text-align: center;
     padding-top: 1rem;
@@ -342,9 +348,7 @@ a #logo {
 }
 
 
-footer h5 {
-    font-size: 16px;
-}
+
 
 footer .container .row h5::after {
     content: "";
@@ -392,6 +396,7 @@ footer #copyright {
 
 footer #copyright p {
     margin-left: 10px;
+    margin-bottom: 1rem;
 }
 
 
