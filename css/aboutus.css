@@ -1,4 +1,4 @@
-.banner-services {
+.banner-aboutus {
     margin-top: -85px;
     background-image: url('/img/banner2 (2).jpg');
     background-position: center center;
@@ -8,7 +8,7 @@
     z-index: -1;
 }
 
-.banner-services .container-fluid {
+.banner-aboutus .container-fluid {
     display: flex;
     align-items: flex-end;
     padding-bottom: 4rem;
@@ -19,57 +19,55 @@
     
 }
 
-.banner-services .container-fluid .row {
+.banner-aboutus .container-fluid .row {
     height: 175px;
     width: 475px;
     margin: 0 1.50rem;
 }
-.banner-services .container-fluid .row .col-12 h1 {
+.banner-aboutus .container-fluid .row .col-12 h1 {
     color: #d2d2d2;
     font-size: 2.75rem;
     line-height: 55px;
     margin-bottom: 40px;
 
 }
-.banner-services .container-fluid .row .col-12 p {
+.banner-aboutus .container-fluid .row .col-12 p {
     color: #d2d2d2;
     font-size: 1rem;
     font-weight: 500;
     
 }
 
-/* SERVICE SECTION */
+/* ABOUT US SECTION */
 
-.service-view  {
+.aboutus-view {
     margin-bottom: 100px;
     padding-top: 0;
 }
 
-.service-view .block {
+.aboutus-view .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
     text-align: center;
+    margin-top: 50px;
 }
 
-.service-view .block .section-header {
-    text-align: center;
+.aboutus-view .section-header {
     margin: 0 auto 75px auto;
     max-width: 650px;
 }
 
-.section-header .title {
+.aboutus-view .section-header .title {
     font-weight: 500;
     font-size: 27px;
     margin-bottom: 30px;
     position: relative;
     display: inline-block;
-   
 }
 
-.section-header .title::before {
+.aboutus-view .section-header .title::before {
     content: "";
     position: absolute;
     height: 1.25px;
@@ -79,7 +77,7 @@
     top: -12px;
 }
 
-.section-header .title::after {
+.aboutus-view .section-header .title::after {
     content: "";
     position: absolute;
     height: 1.25px;
@@ -89,25 +87,17 @@
     top: 40px;
 }
 
-#service-list {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+#referance-box {
+    width: 100%;
+    height: 200px;
 }
 
-#service-list #card-style {
-    max-width: 90%;
-    border: 2px solid rgba(51, 51, 51, 0.4);
-    
+#referance-box .item {
+    width: 100%;
+    height: 150px;
 }
-
-#card-style .row.no-gutters {
-    max-height: 350px;
-    overflow: hidden;
+#referance-box .item img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
-
-#card-style .card-body h5 {
-    color:  rgba(51, 51, 51, 0.4);
-}
-

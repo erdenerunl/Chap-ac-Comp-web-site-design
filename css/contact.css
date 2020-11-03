@@ -1,0 +1,54 @@
+.contact-view  {
+    margin-bottom: 50px;
+    padding-top: 0;
+}
+
+.contact-view .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-view .section-header {
+    text-align: center;
+    margin: 0 auto 75px auto;
+    max-width: 650px;
+}
+
+.contact-view .section-header .title {
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+   
+}
+
+.contact-view .section-header .title::before {
+    content: "";
+    position: absolute;
+    height: 1.25px;
+    background-color: black;
+    width: 30%;
+    left: -10px;
+    top: -12px;
+}
+
+.contact-view .section-header .title::after {
+    content: "";
+    position: absolute;
+    height: 1.25px;
+    background-color: black;
+    width: 70%;
+    left: 75px;
+    top: 40px;
+}
+
+
+
+
+
+
