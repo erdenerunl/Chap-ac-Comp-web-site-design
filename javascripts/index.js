@@ -6,4 +6,12 @@ $(document).ready(function () {
 
 });
 
+const navbarToggler = document.querySelector(".navbar-toggler");
+
+
+navbarToggler.addEventListener("click", responsiveNav);
+
+function responsiveNav(){
+
+}
 
