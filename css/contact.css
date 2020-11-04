@@ -8,6 +8,7 @@
     z-index: -1;
 }
 
+
 .banner-contact .container-fluid {
     display: flex;
     align-items: flex-end;
@@ -29,8 +30,19 @@
     font-size: 2.75rem;
     line-height: 55px;
     margin-bottom: 40px;
-
 }
+@media screen and (max-width:517px){
+    .banner-contact .container-fluid {
+        display: flex;
+        align-items: center;
+    }
+    .banner-contact h1 {
+        font-size: 2.25rem!important;
+        line-height: 45px!important;
+    }
+}
+
+
 .banner-contact .container-fluid .row .col-12 p {
     color: #d2d2d2;
     font-size: 1rem;
@@ -40,7 +52,7 @@
 
 
 .contact-view  {
-    margin-bottom: 50px;
+    margin: 85px 0;
     padding-top: 0;
 }
 
@@ -91,6 +103,8 @@
 .my-form h3 {
     color: #d2d2d2;
 }
+
+
 
 
 

@@ -129,78 +129,7 @@ a #logo {
 }
 
 
-/* .wrapper {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    margin-top: -85px;
-    margin-bottom: 0px;
-    background-color: rgba(51, 51, 51, 0.6);
-} */
 
-/* .wrapper .container-fluid {
-    position: absolute;
-    width: 100%;
-    height: 854px;
-    background-image: url(/img/banner_1.jpg);
-    background-position-y: center;
-    background-size: cover;
-    
-    
-} */
-
-/* .wrapper .container-fluid::after {
-    content: "";
-    background-image: url(/img/banner_1.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-color: rgba(51, 51, 51, 0.6);
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.wrapper .container-fluid .row {
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 2;
-    height: 100vh;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-.wrapper .container-fluid .row .col-12.first, 
-.wrapper .container-fluid .row .col-12.second, 
-.wrapper .container-fluid .row .col-12.third {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.wrapper .container-fluid .row .col-12.first h2 {
-    color: #D2D2D2;
-    font-size: 1.25rem;
-    padding: 2rem;
-    text-align: center;  
-}
-.wrapper .container-fluid .row .col-12.second h1 {
-    color: #D2D2D2;
-    font-size: 2.25rem;
-    padding-bottom: 1.25rem;
-    text-transform: uppercase;
-    text-align: center; 
-}
-.wrapper .container-fluid .row .col-12.third h2 {
-    color: #D2D2D2;
-    font-size: 1.50rem;
-    padding-top: 1.25rem;
-    text-align: center;
-    
-} */
 
 /*content */
 
@@ -339,7 +268,6 @@ footer p {
 .site-foot {
     text-align: center;
     padding-top: 1rem;
-    margin-top: 3rem;
     background-color: rgba(51, 51, 51, 1);
 }
 
