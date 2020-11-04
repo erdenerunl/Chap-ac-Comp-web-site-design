@@ -1,3 +1,44 @@
+.banner-contact {
+    margin-top: -85px;
+    background-image: url('/img/banner4.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 515px;
+    z-index: -1;
+}
+
+.banner-contact .container-fluid {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 4rem;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.banner-contact .container-fluid .row {
+    height: 175px;
+    width: 475px;
+    margin: 0 1.50rem;
+}
+.banner-contact .container-fluid .row .col-12 h1 {
+    color: #d2d2d2;
+    font-size: 2.75rem;
+    line-height: 55px;
+    margin-bottom: 40px;
+
+}
+.banner-contact .container-fluid .row .col-12 p {
+    color: #d2d2d2;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+
 .contact-view  {
     margin-bottom: 50px;
     padding-top: 0;
@@ -47,6 +88,9 @@
     top: 40px;
 }
 
+.my-form h3 {
+    color: #d2d2d2;
+}
 
 
 
