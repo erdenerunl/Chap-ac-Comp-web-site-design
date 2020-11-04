@@ -38,6 +38,17 @@
     
 }
 
+@media screen and (max-width:517px){
+    .banner-aboutus .container-fluid {
+        display: flex;
+        align-items: center;
+    }
+    .banner-aboutus h1 {
+        font-size: 2.25rem!important;
+        line-height: 45px!important;
+    }
+}
+
 /* ABOUT US SECTION */
 
 .aboutus-view {

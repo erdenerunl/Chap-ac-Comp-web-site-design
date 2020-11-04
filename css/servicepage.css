@@ -38,6 +38,17 @@
     
 }
 
+@media screen and (max-width:525px){
+    .banner-services .container-fluid {
+        display: flex;
+        align-items: center;
+    }
+    .banner-services h1 {
+        font-size: 2.25rem!important;
+        line-height: 45px!important;
+    }
+}
+
 /* SERVICE SECTION */
 
 .service-view  {
