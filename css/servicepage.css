@@ -114,7 +114,7 @@
     width: 100%;
     border: 2px solid #d2d2d2;
     border-top: none;
-    border-radius: 50px;
+    border-radius: 30px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -160,28 +160,4 @@
     max-width: 100%;
     height: auto;
 }
-
-
-
-/* #service-list {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#service-list #card-style {
-    max-width: 90%;
-    border: 2px solid rgba(51, 51, 51, 0.4);
-    
-}
-
-#card-style .row.no-gutters {
-    max-height: 350px;
-    overflow: hidden;
-}
-
-#card-style .card-body h5 {
-    color:  rgba(51, 51, 51, 0.4);
-} */
 
