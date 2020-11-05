@@ -308,6 +308,12 @@ footer ul li a {
     
 }
 
+footer ul li a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 footer  #iletisim table tbody tr td {
     text-align: left!important;
     padding: 5px 20px;

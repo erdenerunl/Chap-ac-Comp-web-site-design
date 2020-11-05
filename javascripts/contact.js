@@ -24,6 +24,7 @@ window.addEventListener("DOMContentLoaded", function() {
       ev.preventDefault();
       var data = new FormData(form);
       ajax(form.method, form.action, data, success, error);
+      
     });
   });
   
@@ -39,6 +40,7 @@ window.addEventListener("DOMContentLoaded", function() {
         success(xhr.response, xhr.responseType);
       } else {
         error(xhr.status, xhr.response, xhr.responseType);
+        
       }
     };
     xhr.send(data);

@@ -100,7 +100,70 @@
     top: 40px;
 }
 
-#service-list {
+/* slider part */
+
+.service-section .container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem 1rem 1rem;
+}
+
+#pills-tab {
+    width: 100%;
+    border: 2px solid #d2d2d2;
+    border-top: none;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0d0d071;
+}
+
+#pills-tab li  {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 250px;
+}
+
+#pills-tab li a {
+    color: rgb(82, 80, 80)!important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#pills-tab li .nav-link.active {
+    color: #d2d2d2!important;
+    
+}
+
+#pills-home h3,#pills-profile h3,#pills-contact h3 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+#img-box {
+    width: 100%;
+    height: auto;
+}
+
+#img-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* #service-list {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -120,5 +183,5 @@
 
 #card-style .card-body h5 {
     color:  rgba(51, 51, 51, 0.4);
-}
+} */
 
