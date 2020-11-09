@@ -1,5 +1,5 @@
 .banner-contact {
-    margin-top: -85px;
+    margin-top: -100px;
     background-image: url('/img/banner4.jpg');
     background-position: center center;
     background-size: cover;
@@ -27,8 +27,8 @@
 }
 .banner-contact .container-fluid .row .col-12 h1 {
     color: #d2d2d2;
-    font-size: 2.75rem;
-    line-height: 55px;
+    font-size: 2rem;
+    line-height: 40px;
     margin-bottom: 40px;
 }
 @media screen and (max-width:517px){
@@ -52,7 +52,7 @@
 
 
 .contact-view  {
-    margin: 85px 0;
+    margin: 10px 0;
     padding-top: 0;
 }
 
@@ -67,7 +67,7 @@
 
 .contact-view .section-header {
     text-align: center;
-    margin: 0 auto 75px auto;
+    margin: 0 auto 20px auto;
     max-width: 650px;
 }
 
