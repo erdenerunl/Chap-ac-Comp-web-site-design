@@ -314,7 +314,12 @@ footer .container .row h5::after {
     
 }
 
-
+footer .col-md-6 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
 
 footer ul li  {
     border-bottom: 1px solid #3d3f46;
@@ -341,6 +346,9 @@ footer  #iletisim table tbody tr td {
     text-align: left!important;
     padding: 5px 20px;
     color: #D2D2D2;
+}
+footer  #iletisim {
+    font-size: 14px;
 }
 footer  #iletisim p {
     color: #D2D2D2;
